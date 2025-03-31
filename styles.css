@@ -1,0 +1,176 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family-Chakra+Petch:wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* Estiliza o corpo da página */
+body {
+font-family: "Chakra Petch", sans-serif; /* Define a fonte */
+background-color: #58057a; /* Cor de fundo da página */
+display: flex; /* Usa Flexbox para layout */
+flex-direction: column; /* Alinha os itens na vertical */
+align-items: center; /* Centraliza os itens horizontalmente */
+justify-content: center; /* Centraliza os itens verticalmente */
+height: 100vh; /* Preenche a altura total da viewport */
+margin: 0px;
+padding: 0px;
+}
+
+/* estiliza o plano de fundo */
+body {
+    background-image: url(imagens/Design\ sem\ nome\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estiliza o título h1 */
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #ffffff;
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0rem; /* Espaçamento entre as letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 1rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #454748; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui o padding e a borda no tamanho total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+  padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda padrão */ 
+  border-radius: 1.5rem; /* Borda arredondada */
+  background-color: #a82323; /* Cor de fundo do botão */
+  color: #f5f7f8; /* Cor do texto do botão */ 
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */ 
+
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* largura máxima da caixa de resultados */
+    height: 30vh; /* altura máxima da caixa de resultados */
+    overflow: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno da caixa de resultados */
+    border-radius: 0.6rem; /* Borda arredondada */
+    flex: 1 0 auto; /* Permite que as seções cresçam e encolham */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+  background-color: aliceblue ; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  padding: 1rem; /* Espaçamento interno do item */
+  margin-bottom: 1rem; /* Espaçamento abaixo de cada item */
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1); /* Sombra leve do item */
+}
+
+/* estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #3a89d7; /* Cor do texto dos links */
+}
+
+/* estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #454748; /* Cor do texto */
+    margin: 0.5rem 0; /* margem acima e abaixo */
+    font-size: 1.2rem; /* Tamanho da fonte */
+}
+
+/* estilizar o rodapé da página */
+footer {
+    flex-shrink: 0;
+    background-color: #f5f7f8; /* Cor de fundo do rodapé */
+    color: #454748; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    height: 8%; /* Altura do rodapé */
+}
+
+
+/*adiciona imagens */
+.background image {
+    background-image:url(imagens/ac8bae098d902e75323af1e86464b9f6.jpg);
+    background-image:url(imagens/naruto-visuel-anime.jpg);
+    background-image:url(filters_quality\(95\)format\(webp\).jpg);
+    background-image:url(JoJo27s_Bizarre_Adventure_-_Stardust_Crusaders.jpg);
+    background-image:url(Dragon_Ball_Z.jpg);
+    background-image:url(imagens/Berserk_vol01.jpg);
+    background-image:url(imagem_2023_11_27_104241463__j1voymq2.jpg);
+    background-repeat: no-repeat; /* Opcional: Evita que a imagem se repita */
+    background-size: cover; /* Opcional: Ajusta o tamanho da imagem */
+    background-attachment: scroll; /* Altere para scroll se necessário */
+    background-position: center; /* Opcional: Posiciona a imagem */
+  }
+
+  .imagem-arredondada {
+    border-radius: 10px; /* Define o raio das bordas em 10 pixels */
+  }
+
+.produto-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .produto-container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/*mensagem de pesquisa */
+.mensagem-pesquisa {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* mensagem de nenhum resultado */
+.mensagem-nenhum-resultado {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
