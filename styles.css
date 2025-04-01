@@ -10,7 +10,7 @@ display: flex; /* Usa Flexbox para layout */
 flex-direction: column; /* Alinha os itens na vertical */
 align-items: center; /* Centraliza os itens horizontalmente */
 justify-content: center; /* Centraliza os itens verticalmente */
-height: 60rem; /* Preenche a altura total da viewport */
+height: 100%; /* Preenche a altura total da viewport */
 margin: 0px;
 padding: 0px;
 margin-top: 10rem;
@@ -120,7 +120,7 @@ footer {
     margin-top: auto; /* Espaçamento acima do rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
-    height: 8%; /* Altura do rodapé */
+    height: 10%; /* Altura do rodapé */
 }
 
 
@@ -133,10 +133,6 @@ footer {
     background-image:url(Dragon_Ball_Z.jpg);
     background-image:url(imagens/Berserk_vol01.jpg);
     background-image:url(imagem_2023_11_27_104241463__j1voymq2.jpg);
-    background-repeat: no-repeat; /* Opcional: Evita que a imagem se repita */
-    background-size: cover; /* Opcional: Ajusta o tamanho da imagem */
-    background-attachment: scroll; /* Altere para scroll se necessário */
-    background-position: center; /* Opcional: Posiciona a imagem */;
   }
 
   .imagem-arredondada {
