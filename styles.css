@@ -10,9 +10,10 @@ display: flex; /* Usa Flexbox para layout */
 flex-direction: column; /* Alinha os itens na vertical */
 align-items: center; /* Centraliza os itens horizontalmente */
 justify-content: center; /* Centraliza os itens verticalmente */
-height: 100vh; /* Preenche a altura total da viewport */
+height: 60rem; /* Preenche a altura total da viewport */
 margin: 0px;
 padding: 0px;
+margin-top: 10rem;
 }
 
 /* estiliza o plano de fundo */
@@ -25,6 +26,7 @@ body {
 
 /* Estiliza o título h1 */
 h1 {
+    margin-top: 1rem;
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #ffffff;
     text-align: center; /* Alinha o texto ao centro */
@@ -45,6 +47,7 @@ section input {
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
+    margin-top: 1rem; /* Espaçamento acima dos inputs */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
     color: #454748; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
@@ -109,13 +112,12 @@ section button {
 
 /* estilizar o rodapé da página */
 footer {
-    flex-shrink: 0;
     background-color: #f5f7f8; /* Cor de fundo do rodapé */
     color: #454748; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: fixed; /* Posiciona o rodapé */
+    margin-top: auto; /* Espaçamento acima do rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
     height: 8%; /* Altura do rodapé */
@@ -134,7 +136,7 @@ footer {
     background-repeat: no-repeat; /* Opcional: Evita que a imagem se repita */
     background-size: cover; /* Opcional: Ajusta o tamanho da imagem */
     background-attachment: scroll; /* Altere para scroll se necessário */
-    background-position: center; /* Opcional: Posiciona a imagem */
+    background-position: center; /* Opcional: Posiciona a imagem */;
   }
 
   .imagem-arredondada {
